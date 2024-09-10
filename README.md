@@ -10,17 +10,17 @@ Para realizar los test de tiempos de ejecución se utilizaron los archivos "Sort
 puedan escribir el resultado de los algoritmos.
 
 ## EJECUCIÓN
-Para compilar se usan los siguientes comandos en una consola de Linux.
+Para compilar se usan los siguientes comandos en una consola de Linux.  
 
-Crear los datasets: (Es necesario que exista la carpeta "Datasets" para que se creen los archivos)
-g++ DatasetSortScript.cpp -o datasetsort
-g++ DatasetMatrices.cpp -o datasetmatriz
-./datasetsort
-./datasetmatriz
+Crear los datasets: (Es necesario que exista la carpeta "Datasets" para que se creen los archivos)  
+- g++ DatasetSortScript.cpp -o datasetsort
+- g++ DatasetMatrices.cpp -o datasetmatriz
+- ./datasetsort
+- ./datasetmatriz  
 
-Probar los algoritmos:
-g++ SortingTest.cpp -o sort
-g++ MatricesTest.cpp -o matrices
+Probar los algoritmos:  
+- g++ SortingTest.cpp -o sort
+- g++ MatricesTest.cpp -o matrices
 
 ## VERSIONES UTILIZADAS
 
